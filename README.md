@@ -3,12 +3,9 @@
 This repository contains a Google Colab notebook demonstrating object detection and tracking using the `supervision`, `inference`, and `roboflow` libraries. The notebook is specifically designed to detect and track tennis balls in images and videos using a pre-trained model from Roboflow.
 
 ## Project Overview
-
-The project utilizes a combination of powerful computer vision tools to:
-
 1.  **Perform object detection:** Identify the location of specific objects (tennis balls) within an image or video frame.
 2.  **Track objects:** Follow the movement of detected objects across consecutive frames in a video.
-3.  **Annotate results:** Visualize the detection and tracking results by drawing bounding boxes and labels on the original media.
+3.  **Annotate results:** Visualize the detection and tracking results by drawing bounding boxes and labels on the original video/image.
 
 The workflow includes installing necessary libraries, setting up API access to Roboflow, performing inference on both still images and video sequences, and saving the processed video.
 
